@@ -61,6 +61,8 @@ Scoop][], [via Go][], or [via Docker][]:
 
 ### Installing via Release
 
+Release archives are published for supported amd64 and arm64 targets.
+
 1. [Download a release for your platform][releases]
 2. Extract the `usql` or `usql.exe` file from the `.tar.bz2` or `.zip` file
 3. Move the extracted executable to somewhere on your `$PATH` (Linux/macOS) or
