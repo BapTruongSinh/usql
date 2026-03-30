@@ -113,7 +113,7 @@ if [[ "$PLATFORM" == "linux" && "$ARCH" != "$GOARCH" ]]; then
   EXTLD=$LDARCH-linux-$GNUTYPE-g++
 fi
 
-if [[ "$PLATFORM" == "linux" && "$ARCH" != "amd64" ]] || [[ "$PLATFORM" == "windows" ]]; then
+if [[ "$ARCH" != "amd64" ]] || [[ "$PLATFORM" == "windows" ]]; then
   TAGS+=(no_duckdb)
 fi
 
